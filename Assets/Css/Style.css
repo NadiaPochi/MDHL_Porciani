@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Comic Sans MS";
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 header {
@@ -12,56 +12,72 @@ header {
     height: 300px;
 }
 
-h1{
+h1 {
     font-size: 5vw;
     -webkit-text-stroke: 2px rgb(243, 232, 84);
 }
 
 h2 {
     background-color: black;
-    color: rgb(241, 247, 252);
+    color: rgb(243, 232, 84);
     text-align: center;
+}
+
+h3{
+    margin-bottom: 30px;
 }
 
 
 .logo img {
     position: absolute;
-    bottom: 15vw;
+    bottom: 10vw;
     left: 80vw;
     height: 200px;
 }
+
 
 main {
     display: inline-block;
     width: 50%;
     vertical-align: top;
     padding-top: 30px;
+    margin-left: 30px;
 }
 
-
-nav{
-
-    display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    padding-left: 25px;
-}
-
-nav a{
+section, article{
+    margin-bottom: 20px;
+    line-height : 25px;
     
-    display: block;
-    height: 25px;
-    width: 150px;
-    border-radius: 5px;
-    margin: 30px 0 10px;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+nav a {
+    border: 3px solid rgb(243, 232, 84);
+    padding: 10px;
     background-color: black;
-    color: rgb(241, 247, 252);
-    text-align: center;
+    color: rgb(243, 232, 84);
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+
+nav a:hover{
+    background-color: rgb(243, 232, 84);
+    border: black solid 3px;
+    color:black;
+    transform:translateX(30px);
+          
 }
 
 
-aside img{
-position:absolute;
+/*aside img {
+    position: absolute;
     float: right;
     background-color: black;
     margin-left: 85%;
@@ -69,8 +85,38 @@ position:absolute;
     height: 200px;
     top: 30vw;
     right: 3vw;
+
+}*/
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+  }
+
+  thead th {
+    font-family: 'Rock Salt', cursive;
+    background: linear-gradient(to top, rgba(0,0,0,0.1), rgb(0, 0, 0));
+    border: 3px solid black;
     
+  }
+  
+  tbody td {
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  thead {
+    color: rgb(243, 232, 84);
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .celda{
+    border: 3px solid black;
+  }
+
+  
 
 
 
-}
