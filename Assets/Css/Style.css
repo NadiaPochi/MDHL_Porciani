@@ -12,6 +12,7 @@ header {
     background-image: url(https://cdn.discordapp.com/attachments/1034562900372766843/1073239512366448751/design2_image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid black;
     height: 400px;
 }
 
@@ -48,9 +49,13 @@ main {
 
 section {
     margin-bottom: 20px;
-    line-height: 25px;
 }
 
+.events{
+    margin: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+    line-height: 5px;
+}
 
 nav {
     display: inline-flex;
@@ -105,7 +110,6 @@ thead {
 
 
 .container-img-gallery {
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -113,8 +117,7 @@ thead {
 }
 
 .images_gallery {
-
-    border: 5px solid rgb(243, 232, 84);
+    border: 5px solid rgb(250, 242, 151);
     border-radius: 10px;
     margin: 4vw 4vw;
     height: 16vw;
@@ -142,6 +145,10 @@ fieldset {
     border-style: outset;
 }
 
+.fieldset_row {
+    flex-direction: row;
+}
+
 label {
     margin: 10px;
 }
@@ -156,10 +163,10 @@ legend {
     font-weight: bold;
 }
 
-.select_school{
-margin-bottom: 10px;
-margin-left: 30px;
-margin-right: 50%;
+.select_school {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 50%;
 }
 
 .boton_regis {
@@ -167,9 +174,36 @@ margin-right: 50%;
     color: rgb(243, 232, 84);
     border-color: rgb(243, 232, 84);
     margin: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
-iframe {
+.nav_regis {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+article iframe {
+    margin: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+article {
     margin: 1rem;
-    border-radius: 1rem;
+    background-color: rgb(250, 242, 151);
+    border-radius: 10px;
+}
+
+.title_maps {
+    text-align: center;
 }
