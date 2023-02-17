@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://cdn.discordapp.com/attachments/1034562900372766843/1073239512366448751/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black;
+    height: 400px;
+}
+
+h1 {
+    font-size: 4vw;
+    -webkit-text-stroke: 2px rgb(243, 232, 84);
+}
+
+h2 {
+    background-color: black;
+    color: rgb(243, 232, 84);
+    text-align: center;
+    vertical-align: middle;
+    border: solid rgb(243, 232, 84);
+    padding: 1rem;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+
+.logo img {
+    height: 150px;
+}
+
+
+main {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 20px 20px 20px 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.events{
+    margin: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+    line-height: 5px;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+nav a {
+    border: 3px solid rgb(243, 232, 84);
+    padding: 10px;
+    background-color: black;
+    color: rgb(243, 232, 84);
+    text-transform: uppercase;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(243, 232, 84);
+    border: black solid 3px;
+    color: black;
+    transform: translateX(30px);
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+thead th {
+    font-family: 'Rock Salt';
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgb(0, 0, 0));
+    border: 3px solid black;
+}
+
+tbody td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+thead {
+    color: rgb(243, 232, 84);
+    text-shadow: 1px 1px 1px black;
+}
+
+.celda {
+    border: 3px solid black;
+}
+
+
+.container-img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.images_gallery {
+    border: 5px solid rgb(250, 242, 151);
+    border-radius: 10px;
+    margin: 4vw 4vw;
+    height: 16vw;
+    transition: transform 0.5s;
+}
+
+.images_gallery:hover {
+    transform: scale(1.3);
+}
+
+form {
+    border: 2px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(248, 235, 192);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: rgb(255, 252, 240);
+    border-style: outset;
+}
+
+.fieldset_row {
+    flex-direction: row;
+}
+
+label {
+    margin: 10px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+legend {
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+.select_school {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 50%;
+}
+
+.boton_regis {
+    background-color: black;
+    color: rgb(243, 232, 84);
+    border-color: rgb(243, 232, 84);
+    margin: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.nav_regis {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+article iframe {
+    margin: 5px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+article {
+    margin: 1rem;
+    background-color: rgb(250, 242, 151);
+    border-radius: 10px;
+}
+
+.title_maps {
+    text-align: center;
+}
